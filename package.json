@@ -4,7 +4,7 @@
   "description": "My Works and Portfolio",
   "main": "index.js",
   "scripts": {
-    "start": "node client/src/index.js",
+    "start": "nodemon server/app.js",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "repository": {
