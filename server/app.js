@@ -9,7 +9,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var testAPIRouter = require('./routes/testAPI')
 
-const publicPath = path.join(__dirname, '..', 'client/public');
+const publicPath = path.join(__dirname, '../client/public');
 
 var app = express();
 
