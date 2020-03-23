@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');  
+
+body{
+    background-image: url(../Assets/purplebg.jpg);
+}
+.Vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.Intro-font {
+    font-family: 'Lato';
+    font-size: 4em;
+}
