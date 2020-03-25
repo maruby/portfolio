@@ -4,7 +4,7 @@
   "description": "My Works and Portfolio",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/app.js",
+    "start": "nodemon server/bin/www",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "repository": {
